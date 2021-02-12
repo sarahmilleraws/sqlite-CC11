@@ -1,0 +1,25 @@
+Teamwork Document for SQL Fundamentals:
+
+SQL CC-11
+
+Learning Outcomes:
+
+At the end of this coding challenge you will be correctly able to;
+Use keywords and statements in SQL
+Use aggregate functions
+Use GROUP BY and HAVING keywords
+Use JOINS
+Please answer the following questions:
+
+Write a query that displays InvoiceId, CustomerId and total dollar amount for each invoice, sorted first by CustomerId (in ascending order), and then by total dollar amount (in descending order).
+Write a query that displays InvoiceId, CustomerId and total dollar amount for each invoice, but this time sorted first by total dollar amount (in descending order), and then by CustomerId (in ascending order).
+Compare the results of these two queries above. How are the results different when you switch the column you sort on first? (Explain it in your own words.)
+Write a query to pull the first 10 rows and all columns from the invoices table that have a dollar amount of total greater than or equal to 10.
+Write a query to pull the first 5 rows and all columns from the invoices table that have a dollar amount of total less than 10.
+Find all track names that start with 'B' and end with 's'.
+Use the invoices table to find all information regarding invoices whose billing address is USA or Germany or Norway or Canada and invoice date is at any point in 2010, sorted from newest to oldest.
+How many tracks does each album have? Your solution should include Album id and its number of tracks sorted from highest to lowest.
+Find the album title of the tracks. Your solution should include track name and its album title.
+Find the minimum duration of the track in an album. Your solution should include track name, album id, album title and duration of the track sorted from highest to lowest.
+Find the total duration of each album. Your solution should include album id, album title and its total duration sorted from highest to lowest.
+Based on the previous question, find the albums whose total duration is higher than 70 minutes. Your solution should include album title and total duration.
